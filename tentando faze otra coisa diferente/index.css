@@ -1,0 +1,61 @@
+*{
+    text-decoration: none;
+    margin: 0;
+}
+#top{
+    display: flex;
+    top: 0px;
+}
+#nav{
+    display: flex;
+    font: normal 25px verdana;
+    background-color:transparent;
+    position: fixed;
+}
+#menu{
+    display: block;
+    background-color: transparent;
+    width: 100%;
+    height: 75px;
+    top: 0;
+    position: fixed;
+    -webkit-filter:  blur(8px);
+    backdrop-filter:  blur(5px) saturate(65%) contrast(160%);
+    
+}
+a{
+    padding: 20px;
+    color: white;
+    z-index: 2;
+}
+.bg1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(concert.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.bg2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(concert2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+}
+.bg3{
+    height: 100%;
+    width: 100%;
+    background-image:url(concertcrowd.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
