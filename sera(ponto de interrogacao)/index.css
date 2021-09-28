@@ -1,0 +1,298 @@
+*{
+    text-decoration: none;
+    margin: 0;
+}
+
+nav{    
+    position: fixed;
+    background-color: transparent;
+    width: 100%;
+    height: 75px;
+    top: 0;
+    left: 0;
+    backdrop-filter:  blur(5px) saturate(65%) contrast(160%); 
+    z-index: 2;   
+}
+
+.instagram{
+    float: right;
+    position: relative;
+    left: -25px;
+    padding: 25px 25px ;
+    top: 25px;
+    background-image: url(instagram.png);
+    background-repeat: no-repeat;
+}
+
+.youtube{
+    float: right;
+    position: relative;
+    padding: 25px 25px;
+    top: 25px;
+    left: -55px;
+    background-image: url(youtube.png);
+    background-repeat: no-repeat;    
+}
+
+.twitter{
+    float: right;
+    position: relative;
+    padding: 25px 25px;
+    top: 25px;
+    left: -40px;
+    background-image: url(twitter.png);
+    background-repeat: no-repeat;    
+}
+nav ul{
+    float: left;
+    display: flex;
+    margin: 0;
+    padding: 0;      
+
+}
+
+nav ul li{
+    list-style: none;
+    
+}
+
+nav ul li a{
+    height: 75px;
+    line-height: 75px;
+    padding: 20px 20px;
+    color: white;
+    display: block;
+    font: normal 20px verdana; 
+    text-transform: uppercase;     
+}
+
+.bg1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/concert.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bgtext1{
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(90deg, #CF3939 -0.55%, #E68226 47.33%, #EFE843 110.8%);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: 0px 4px 20px rgba(220, 2, 2, 0.6);  
+}
+.logo{
+    background-image: url(img/logo4.png);
+    position: absolute;
+    margin-top: -160px;
+    width: 830px;
+    height: 830px;
+
+}
+.button1{
+    position: absolute;
+    float: right;
+    right: 75px;
+    margin-top: 360px;
+    width: 262px;
+    height: 103px;
+    background: linear-gradient(90deg, rgba(215, 16, 207, 0.65) 10.68%, rgba(220, 2, 2, 0.82) 64.51%);
+    box-shadow: 0px 4px 10px rgba(220, 2, 2, 0.6);
+    border-radius: 35.5px;
+}
+.button1 p{
+    font-family:Lato;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 25px;
+    color: #fff;
+}
+.artist{
+    position: absolute;
+    width: 412px;
+    height: 86px;
+    float: right;
+    margin-top: 20px;
+    right: 5px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 77px;
+    color: #F9F9F9;
+}
+.album{
+    position: absolute;
+    width: 412px;
+    height: 86px;
+    float: right;
+    margin-top: 90px;
+    right: 5px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #F9F9F9;
+}
+.bg2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/pic2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bgtext2{
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background:#0C1A23 
+}
+.button2{
+    position: absolute;
+    width: 220px;
+    height: 86px;
+    background: linear-gradient(250.52deg, #DC06FF 9.4%, rgba(20, 36, 182, 0.97) 118.73%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 43px;
+    float: left;
+    margin-left: 395px;
+    margin-top: 295px;
+}
+.button2 p{
+    font-family:Lato;
+    text-align: center;
+    margin-top: 25px;
+    color: #fff;
+    position: absolute;
+    width: 166px;
+    height: 38px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    left: 25px;
+}
+.tshirt{
+    position: absolute;
+    margin-top: 100px;
+    background: no-repeat;
+    margin-left: 50px;
+}
+.textshirt{
+    position: absolute;
+    width: 312px;
+    height: 94px;
+    left: 380px;
+    margin-top: 100px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.vinyl{
+    position: absolute;
+    margin-top: 100px;
+    background: no-repeat;
+    float: right;
+    right: 500px;
+}
+.vinyltext{
+    position: absolute;
+    width: 450px;
+    height: 94px;
+    right: 5px;
+    margin-top: 100px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.button3{
+    position: absolute;
+    width: 220px;
+    height: 86px;
+    background: linear-gradient(250.52deg, #DC06FF 9.4%, rgba(20, 36, 182, 0.97) 118.73%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 43px;
+    right: 150px;
+    margin-top: 295px;
+}
+.button3 p{
+    font-family:Lato;
+    text-align: center;
+    margin-top: 25px;
+    color: #fff;
+    position: absolute;
+    width: 166px;
+    height: 38px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    left: 25px;   
+}
+.bg3{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/pic3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bgtext3{
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.bg4{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/pic4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bgtext4{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.6);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+footer{
+    height: 50px;
+    background-color: whitesmoke;
+}
+
+footer p{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+}
+
+
